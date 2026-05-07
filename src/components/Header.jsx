@@ -29,7 +29,7 @@ function Header() {
               <Link to="/about" className="header-link">About</Link>
               <Link to="/services" className="header-link">Services</Link>
               <Link to="/contact" className="header-link">Contact</Link>
-               <Link to="#" className="header-link">AI</Link>
+              <Link to="/ai" className="header-link">AI</Link>
               <Link to="/login" className="header-link">Login</Link>
               <Link to="/register" className="header-link">Register</Link>
             </>

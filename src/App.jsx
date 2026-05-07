@@ -12,6 +12,7 @@ import Register from './pages/Register';
 import ProductList from './pages/ProductList';
 import AddProduct from './pages/AddProduct';
 import EditProduct from './pages/EditProduct';
+import AI from './pages/AI';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="about" element={<PublicRoute><About /></PublicRoute>} />
             <Route path="services" element={<PublicRoute><Services /></PublicRoute>} />
             <Route path="contact" element={<PublicRoute><Contact /></PublicRoute>} />
+            <Route path="ai" element={<PublicRoute><AI /></PublicRoute>} />
             <Route path="login" element={<PublicRoute><Login /></PublicRoute>} />
             <Route path="register" element={<PublicRoute><Register /></PublicRoute>} />
             <Route 
