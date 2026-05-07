@@ -3,7 +3,7 @@ import './Page.css';
 function AI() {
   return (
     <div className="page">
-      <h1>AI Insights</h1>
+      <h1>AI Updated Insights</h1>
       <p className="page-intro">
         Explore our AI-powered ideas, use cases, and sample data for modern automation.
       </p>
